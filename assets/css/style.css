@@ -1844,7 +1844,32 @@ figure.snip1477.hover figcaption {
     background: linear-gradient(to bottom, rgba(41, 152, 255, 0), #2998ff);
     z-index: 2; }
 
-#ict-app img {
+section#ict-app .contant-text {
+  padding-top: 30px;
+  padding-left: 20px; }
+
+section#ict-app img {
+  margin: 0 auto; }
+
+section#mis .contant-text {
+  padding-top: 40px;
+  padding-left: 20px; }
+
+section#mis img {
+  margin: 0 auto; }
+
+section#gis .contant-text {
+  padding-top: 80px;
+  padding-left: 20px; }
+
+section#gis img {
+  margin: 0 auto; }
+
+section#mae .contant-text {
+  padding-top: 90px;
+  padding-left: 20px; }
+
+section#mae img {
   margin: 0 auto; }
 
 .project {

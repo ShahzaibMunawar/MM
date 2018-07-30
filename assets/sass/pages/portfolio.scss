@@ -1,5 +1,36 @@
-//.contant-img{margin-top: 30px;}
-#ict-app{
+
+section#ict-app{
+    & .contant-text {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    & img {
+        margin: 0 auto;
+    }
+}
+section#mis{
+    & .contant-text {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    & img {
+        margin: 0 auto;
+    }
+}
+section#gis{
+    & .contant-text {
+    padding-top: 80px;
+    padding-left: 20px;
+    }
+    & img {
+        margin: 0 auto;
+    }
+}
+section#mae{
+    & .contant-text {
+    padding-top: 90px;
+    padding-left: 20px;
+    }
     & img {
         margin: 0 auto;
     }
@@ -24,7 +55,7 @@
             }
         }
         &-paragraph {}
-        & button{
+        & button {
             @include flexbox;
             margin-left: auto;
             margin-right: auto;
@@ -36,11 +67,11 @@
         margin-top: 15px;
         color: $color-gray-light-2;
         &-item {
-             @include flexbox;
+            @include flexbox;
             margin-bottom: 5px;
             & a {
                 color: $color-secondary-light;
-                &:hover{
+                &:hover {
                     color: $color-primary;
                 }
             }
@@ -53,16 +84,20 @@
         }
     }
 }
-.prod-img{
+
+.prod-img {
     position: relative;
     background-position: center center;
     background-size: cover;
-    width: 100%;        height: 511px;
+    width: 100%;
+    height: 511px;
 
 }
-.mis-image{
+
+.mis-image {
     background-image: url('../images/projects/accounting-alone-application-938965.jpg');
 }
-.ict-image{
-        background-image: url('../images/projects/accounting-alone-application-938965.jpg');
+
+.ict-image {
+    background-image: url('../images/projects/accounting-alone-application-938965.jpg');
 }

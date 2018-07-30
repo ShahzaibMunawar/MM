@@ -1,1 +1,1 @@
-<?php define("URL", "http://".$_SERVER['HTTP_HOST']."/mm/");?>
+<?php define("URL", "http://".$_SERVER['HTTP_HOST']."/mm@git/");?>

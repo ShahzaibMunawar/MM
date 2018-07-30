@@ -12,23 +12,15 @@
             </ul>
         </div>
     </div>
-
-
-
 <section class=" white p-t-large" id="ict-app">
     <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 contant-img p-r-0">
-                <div class="prod-img ict-image"></div>
+                <div class="prod-img ict-image "></div>
             </div>
-            <div class="col-md-6 col-sm-12 contant-text">
+            <div class="col-md-6 col-sm-12 contant-text padd">
                 <div class="project">
                     <div class="project__text">
-                        <!--
-                        <p class="project__text-small">
-                            Smart Company cards
-                        </p>
--->
                         <h3 class="project__text-large">
                             ICT Applications
                         </h3>
@@ -69,7 +61,7 @@
 <section class="bg-light-black color-white" id="mis" >
     <div class="container ">
         <div class="row">
-            <div class="col-md-6 col-sm-12 contant-text">
+            <div class="col-md-6 col-sm-12 contant-text padd">
                 <div class="project">
                     <div class="project__text ">
                         <!--
@@ -107,7 +99,7 @@
         </div>
     </div>
 </section>
-<section class=" white" id="ict-app">
+<section class=" white" id="gis">
     <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 contant-img p-r-0">
@@ -184,9 +176,6 @@
                             <li class="project__list-item">
                                 <i class="fa fa-check" aria-hidden="true"></i>Lady Health Worker (LHW) &amp; Nutrition MIS, Punjab
                             </li>
-                            <li class="project__list-item">
-                                <i class="fa fa-check" aria-hidden="true"></i> UNDP STAR (Systematic Tracking for Accountability and Results) – Strategic Information System
-                            </li>
                         </ul>
                                               <button class="btn btn-white">Details</button>
                     </div>
@@ -200,7 +189,7 @@
         </div>
     </div>
 </section>
-<section class=" white p-b-large" id="ict-app">
+<section class=" white p-b-large" id="mae">
     <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 contant-img p-r-0">
@@ -239,6 +228,4 @@
         </div>
     </div>
 </section>
-
-
 <?php include "includes/footer.php" ?>
