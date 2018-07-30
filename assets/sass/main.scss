@@ -1,0 +1,16 @@
+@import "abstract/variable.scss";
+@import "abstract/_mixins.scss";
+@import "abstract/_vwStarter.scss";
+@import "abstract/functions.scss";
+
+@import "base/animations";
+
+@import "components/prework";
+
+@import "pages/contact";
+@import "pages/about";
+@import "pages/services";
+@import "pages/portfolio";
+
+
+@import "layout/media_query.scss";

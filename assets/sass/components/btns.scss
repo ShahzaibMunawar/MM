@@ -1,0 +1,9 @@
+/***************theme btns********************/
+.btn{ padding-left:25px; padding-right:25px;}
+.btn-primary { background-color: #f49818; outline: none; border-radius:2px; border:none; }
+.btn-primary i{ margin-left:5px;}
+.btn-primary:focus, .btn-primary:hover { box-shadow: none; background-color: #51b8e3; border-color: #51b8e3; outline: none; }
+.btn-white-line{ border:1px solid #fff; color:#fff;}
+.btn-white-line:hover, .btn-white-line:focus{color: #51b8e3; background:#fff;}
+
+//====================================================

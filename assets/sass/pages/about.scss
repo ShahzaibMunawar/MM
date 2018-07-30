@@ -1,0 +1,296 @@
+//.about_head {
+//    height: 20rem;
+//
+//    margin-top: 71px;
+//    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/aboutmain.jpg) fixed no-repeat center center;
+//
+//}
+
+.about-featured-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-featured-image > a {
+    display: block;
+}
+
+.about-featured-image > a:hover img {
+    transform: scale(1.12);
+    transition: all .6s ease-in-out;
+}
+
+.about-featured-image > a img {
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+
+.about-page-content {
+    background-color: #fff;
+    padding: 3.5rem 2.5rem;
+    margin: 2rem 0 0 -5rem;
+}
+
+.About_text {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atext {
+    line-height: 20rem;
+}
+
+.text_main {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.text_secondary > a {
+    color: #fff;
+    font-size: 1.9rem;
+}
+
+.text_secondary > a span {
+    font-size: 1.9rem;
+}
+
+.text_secondary > a:last-child {
+    color: #f49818;
+}
+
+.heading-main-1 {
+    color: #233141;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.secondary-head > p {
+    color: #233141;
+    font-size: 1.6rem;
+}
+
+.heading-main-2 {
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #51b8e3
+}
+
+.Hslash {
+    font-size: 1.9rem;
+}
+
+/////////////////////////////////////////////////
+.about-feature {
+    display: flex;
+    position: relative;
+
+    &-box {
+        flex: 1;
+        margin: 0 10px;
+        border: 1px solid $color-primary;
+        padding: 1rem 2rem;
+        &:hover {
+            & i {
+                background-color: $color-primary;
+                color: $color-gray-light-1;
+            }
+        }
+    }
+    &-icon {
+        position: absolute;
+        & > i {
+            font-size: 32px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid $color-primary;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+            position: relative;
+            top: -5rem;
+            background: #fff;
+            color: $color-primary;
+            border-radius: 50%;
+            left: 20px;
+            transition: 0.4s;
+        }
+    }
+    &-text {
+        padding-top: 4.5rem;
+        & > h4 {
+            font-weight: 700;
+            font-size: 3rem;
+            text-transform: uppercase;
+            & > {
+                span {
+                    font-family: inherit;
+                    font-size: 3.1rem;
+                    color: $color-primary;
+                    font-weight: 900;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        & > p {
+            font-family: inherit;
+            font-size: 1.6rem;
+            color: $color-black;
+        }
+    }
+}
+
+///////////////////////////////coverage
+.coverage-m1 {
+    margin: 9rem 3rem 9rem 80px;
+}
+
+.coverage-m2 {
+    margin: 9rem 80px 9rem 2rem;
+}
+
+.coverage {
+    display: flex;
+    & .coverage-txt-img {
+        background: url(../images/coverage1bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    & .blue-color-overlay1 {
+        padding: 1px 0px 1px 0px;
+        background: rgba(81, 184, 227, 0.70);
+        position: relative;
+        z-index: 9;
+    }
+
+    &_text,
+    &_sub-text {
+        flex: 0 0 46%;
+        text-align: left;
+        & h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 3rem;
+            margin: 2rem auto;
+            color: #fff;
+        }
+        & p {
+            text-align: left;
+            color: #fff;
+            font-size: 1.6rem;
+        }
+    }
+    &_img {
+        flex-grow: 1;
+        flex: 0 0 25%;
+        overflow: hidden;
+        & > .feature-img {
+            background-image: url(../images/cover.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all 0.6s ease-in;
+            height: 100%;
+            &:hover {
+                transform: scale(1.10);
+            }
+        }
+    }
+    &_sub-text {
+        flex: 0 0 29%;
+        background: $color-black-1;
+    }
+}
+
+////////////////////////////////////////////////////////
+.breaker {
+    border: 1px solid $color-primary;
+    height: 1px;
+    width: 50px;
+    margin: 2rem 0px;
+}
+
+.line {
+    width: 2px;
+    height: 8rem;
+    background-color: #fff;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 1000;
+    right: 6%;
+}
+
+.team {
+    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/team.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 33rem;
+    color: #fff;
+    position: relative;
+    &_heading {
+        position: absolute;
+        left: 50%;
+        top: 12%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        & > h3 {
+            font-size: 4rem;
+            color: $color-primary;
+        }
+        & > p {
+            color: #fff;
+            font-size: 1.8rem;
+        }
+    }
+
+    &_area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 33rem;
+        align-items: center;
+        & h4 {
+            color: #fff;
+            font-size: 3rem !important;
+            font-weight: 700;
+            letter-spacing: 2px;
+            & span {
+                font-size: 13px;
+            }
+        }
+        & > p {
+            color: #fff;
+            font-size: 2.2rem;
+        }
+        &__cover_heading {
+            position: relative;
+
+            .specific_heading {
+                color: inherit;
+                position: absolute;
+                top: 38px;
+                left: -4px;
+                font-size: 12px;
+                letter-spacing: 0px;
+                width: 150px;
+
+            }
+        }
+
+        & > span {
+            font-size: 2rem;
+        }
+    }
+    &_number {
+        font-weight: 1.6rem;
+        font-weight: 400;
+    }
+
+}
+
+.left-30 {
+    left: 30px!important;
+}

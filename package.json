@@ -1,0 +1,25 @@
+{
+  "name": "micromerger",
+  "version": "1.0.0",
+  "description": "it soluion company",
+  "main": "index.js",
+  "dependencies": {
+    "html5-device-mockups": "^3.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "keywords": [
+    "itsolution",
+    "it",
+    "outsourcing",
+    "micromerger",
+    "computer",
+    "science"
+  ],
+  "author": "Zeeshan ,Arfan",
+  "license": "ISC"
+}
