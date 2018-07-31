@@ -1,5 +1,6 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navbar.php" ?>
+<!--
     <div class="about_head color-overlay">
         <div class="container">
 
@@ -11,6 +12,7 @@
             </ul>
         </div>
     </div>
+-->
 <!-------------------------------paralex part---->
 <section class="default-section paralex">
     <div class="container">

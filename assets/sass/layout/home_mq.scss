@@ -15,6 +15,11 @@
     #footer-widgets .widget .textwidget .brand-wrap > .brand-text {
         margin: 14px 0px 14px 4px;
     }
+    /////////////// About us page
+    .about-page-content {
+    padding: 3rem 2rem;
+    margin: 1rem 0 0 -10rem;
+    }
 
 
 }
@@ -31,12 +36,24 @@
     #id-footer .textwidget{display: flex;flex-direction: column;}
 }
 //----------------------general
+@media (min-width: 600px) and  (max-width: 992px) {
+    //////// for contact us page
+    .left-push{left: 25%;}}
 @media (max-width: 992px){
 //    -------our people is our asset
     .asset .carousel-control.right {right: 20px;}
     .asset .carousel-control.left {left: 20px;}
+    //////////abouy us page
+    .about-page-content{
+        margin: 3rem 0 0 0;
+    }
+    .team_area__cover_heading p.specific_heading{
+        left: -60px;
+    }
+    .inc-isb{
+        left: -23px!important;
+    }
 }
-//@media (min-width: 481px) and (max-width: 767px) {
 @media (max-width: 767px) {
 //--------navbar
     .navbar-default .navbar-brand {padding: 15px 0 15px 15px;}
@@ -79,6 +96,24 @@
     }
     .highlight.blue .text-right.col-w-100.text-center-xs{
         padding-top: 20px;
+    }
+    //////////////////////////////////////////
+    ///////// ontact us page/////////////////
+    ////////////////////////////////////////
+    .text_main{
+        font-size: 30px;
+    }
+    .text_secondary > a{
+        font-size: 16px;
+    }
+    .Hslash{
+        font-size: 16px;
+    }
+    .atext{
+        line-height: 15rem;
+    }
+    .about_head{
+        height: 15rem;
     }
 }
 

@@ -12,15 +12,16 @@
         </ul>
     </div>
 </div>
+<div class="bg-white">
 <div class="container">
-    <div class="about-page p-t-large">
+    <div class="about-page p-t-large p-b-large">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7 col-sm-12">
                 <div class="about-featured-image">
                     <a href="about.html"><img src="assets/images/about.jpg" alt=""></a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 col-sm-12">
                 <div class="about-page-content">
                     <h4 class="heading-main-2">Who we are</h4>
                     <h3 class="heading-main-1">MicroMerger at a glance.</h3>
@@ -36,7 +37,7 @@
             </div>
         </div>
     </div>
-
+</div>
     <!--Jobs    /////-->
 
 </div>
@@ -105,7 +106,7 @@
         <div class="col-md-3 col-xs-3 col-sm-3 team_area">
            <div class="team_area__cover_heading">
             <h4>Punjab </h4>
-            <p class="specific_heading left-30">(Including Islamabad)</p>
+            <p class="specific_heading inc-isb">(Including Islamabad)</p>
             </div>
             <div class="breaker"></div>
             <span class="team_number counter">139</span>

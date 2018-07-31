@@ -1,6 +1,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navbar.php" ?>
 <!---------------------------header-->
+<!--
     <div class="about_head color-overlay">
         <div class="container">
 
@@ -12,6 +13,7 @@
             </ul>
         </div>
     </div>
+-->
 <section class=" white p-t-large" id="ict-app">
     <div class="container ">
         <div class="row">
@@ -58,7 +60,7 @@
         </div>
     </div>
 </section>
-<section class="bg-light-black color-white" id="mis" >
+<section class="bg-light-black color-white" id="SADM" >
     <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 contant-text padd">
@@ -93,7 +95,7 @@
 
             </div>
             <div class="col-md-6 col-sm-12 contant-img p-l-0 ">
-                <div class="mis-image prod-img"></div>
+                <div class="ict-image prod-img"></div>
 
             </div>
         </div>
@@ -183,7 +185,7 @@
 
             </div>
             <div class="col-md-6 col-sm-12 contant-img p-l-0 ">
-                <div class="mis-image prod-img"></div>
+                <div class="ict-image prod-img"></div>
 
             </div>
         </div>

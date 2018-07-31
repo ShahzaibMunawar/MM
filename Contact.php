@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact-box">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-w-100">
                         <figure class="snip1477"><img src="assets/images/contact/Faisalmosq.jpg" class="img-responsive" alt="Islamabad" />
                             <div class="title">
                                 <div>
@@ -45,7 +45,7 @@
                         </figure>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-w-100">
                         <figure class="snip1477"><img src="assets/images/contact/Tower_Bridge_night_2128191b.jpg" class="img-responsive" alt="Islamabad" />
                             <div class="title">
                                 <div>
@@ -71,7 +71,7 @@
                             <a href="#"></a>
                         </figure>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-xs-6 left-push col-w-100 left-0">
                         <figure class="snip1477"><img src="assets/images/contact/Bab-e-khyber-Peshawar-Pakistan.jpg" class="img-responsive" alt="Islamabad" />
                             <div class="title">
                                 <div>

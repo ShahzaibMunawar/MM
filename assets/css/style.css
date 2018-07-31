@@ -1337,7 +1337,8 @@ figure.snip1477.hover figcaption {
 .about-page-content {
   background-color: #fff;
   padding: 3.5rem 2.5rem;
-  margin: 2rem 0 0 -5rem; }
+  margin: 2rem 0 0 -9rem;
+  border: 1px solid #e1e1e1; }
 
 .About_text {
   color: #fff;
@@ -1539,7 +1540,7 @@ figure.snip1477.hover figcaption {
     font-weight: 1.6rem;
     font-weight: 400; }
 
-.left-30 {
+.inc-isb {
   left: 30px !important; }
 
 .frame-slider > h2 {
@@ -1844,6 +1845,13 @@ figure.snip1477.hover figcaption {
     background: linear-gradient(to bottom, rgba(41, 152, 255, 0), #2998ff);
     z-index: 2; }
 
+.prod-img {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 511px; }
+
 section#ict-app .contant-text {
   padding-top: 30px;
   padding-left: 20px; }
@@ -1851,12 +1859,27 @@ section#ict-app .contant-text {
 section#ict-app img {
   margin: 0 auto; }
 
-section#mis .contant-text {
+section#ict-app .ict-image {
+  background-image: url("../images/projects/ict.jpg"); }
+
+section#SADM .contant-text {
   padding-top: 40px;
+  padding-left: 20px; }
+
+section#SADM img {
+  margin: 0 auto; }
+
+section#SADM .ict-image {
+  background-image: url("../images/projects/2.jpg"); }
+
+section#mis .contant-text {
   padding-left: 20px; }
 
 section#mis img {
   margin: 0 auto; }
+
+section#mis .ict-image {
+  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
 
 section#gis .contant-text {
   padding-top: 80px;
@@ -1865,12 +1888,18 @@ section#gis .contant-text {
 section#gis img {
   margin: 0 auto; }
 
+section#gis .ict-image {
+  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
+
 section#mae .contant-text {
   padding-top: 90px;
   padding-left: 20px; }
 
 section#mae img {
   margin: 0 auto; }
+
+section#mae .ict-image {
+  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
 
 .project {
   margin-right: 0px; }
@@ -1911,19 +1940,6 @@ section#mae img {
         font-weight: 300;
         color: #2998ff; }
 
-.prod-img {
-  position: relative;
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  height: 511px; }
-
-.mis-image {
-  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
-
-.ict-image {
-  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
-
 @media (min-width: 1025px) and (max-width: 1280px) {
   #footer-widgets .widget .textwidget .brand-wrap > .brand-text {
     margin: 14px 0px 14px 4px; } }
@@ -1932,7 +1948,10 @@ section#mae img {
   .navbar-default .navbar-nav > li > a {
     padding: 15px; }
   #footer-widgets .widget .textwidget .brand-wrap > .brand-text {
-    margin: 14px 0px 14px 4px; } }
+    margin: 14px 0px 14px 4px; }
+  .about-page-content {
+    padding: 3rem 2rem;
+    margin: 1rem 0 0 -10rem; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .banner-text h1 {
@@ -1951,11 +1970,21 @@ section#mae img {
     display: flex;
     flex-direction: column; } }
 
+@media (min-width: 600px) and (max-width: 992px) {
+  .left-push {
+    left: 25%; } }
+
 @media (max-width: 992px) {
   .asset .carousel-control.right {
     right: 20px; }
   .asset .carousel-control.left {
-    left: 20px; } }
+    left: 20px; }
+  .about-page-content {
+    margin: 3rem 0 0 0; }
+  .team_area__cover_heading p.specific_heading {
+    left: -60px; }
+  .inc-isb {
+    left: -23px !important; } }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-brand {
@@ -2008,7 +2037,17 @@ section#mae img {
   .text-center-xs {
     text-align: center !important; }
   .highlight.blue .text-right.col-w-100.text-center-xs {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .text_main {
+    font-size: 30px; }
+  .text_secondary > a {
+    font-size: 16px; }
+  .Hslash {
+    font-size: 16px; }
+  .atext {
+    line-height: 15rem; }
+  .about_head {
+    height: 15rem; } }
 
 @media (max-width: 389px) {
   .navbar-default.floating-menu .navbar-brand {
@@ -2023,3 +2062,15 @@ section#mae img {
       font-size: 18px; }
   .brand-wrap .brand-text {
     margin-top: 5px; } }
+
+@media (max-width: 480px) {
+  .text_main {
+    font-size: 30px; }
+  .text_secondary > a {
+    font-size: 16px; }
+  .Hslash {
+    font-size: 16px; }
+  .atext {
+    line-height: 15rem; }
+  .about_head {
+    height: 15rem; } }
