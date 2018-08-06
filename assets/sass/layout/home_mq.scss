@@ -20,6 +20,10 @@
     padding: 3rem 2rem;
     margin: 1rem 0 0 -10rem;
     }
+    .our_box{
+        min-height: 290px;
+    }
+
 
 
 }
@@ -35,10 +39,9 @@
 //    -----------footer
     #id-footer .textwidget{display: flex;flex-direction: column;}
 }
-//----------------------general
 @media (min-width: 600px) and  (max-width: 992px) {
     //////// for contact us page
-    .left-push{left: 25%;}}
+    .b-left-push{left: 25%;}}
 @media (max-width: 992px){
 //    -------our people is our asset
     .asset .carousel-control.right {right: 20px;}
@@ -53,8 +56,10 @@
     .inc-isb{
         left: -23px!important;
     }
+    .margin-t{margin-top:65px;}
+
 }
-@media (max-width: 767px) {
+@media (max-width: 767px){
 //--------navbar
     .navbar-default .navbar-brand {padding: 15px 0 15px 15px;}
     .navbar-default .navbar-toggle,
@@ -70,9 +75,12 @@
     .section-heading h2:after{margin-bottom: 30px;}
     #id-about a.btn-lg{font-size: 15px;}
     #id-footer .textwidget{display: flex;flex-direction: column;}
-
+    ////////////////about us page
+    .b-left-push{left: 0%;}
+    .margin-t-2{margin-top:65px;}
+    .team_heading > h3{font-size: 30px;}
+    .team_area h4 {font-size: 26px;}
 }
-
 @media (max-width: 480px) {
     //_______________________________________ navbar
         #id-about .imgs{display: none;}
@@ -116,7 +124,6 @@
         height: 15rem;
     }
 }
-
 @media (max-width: 389px) {
     .navbar-default.floating-menu .navbar-brand {
         padding: 10px;

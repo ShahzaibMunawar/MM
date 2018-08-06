@@ -5,7 +5,6 @@
 //    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/aboutmain.jpg) fixed no-repeat center center;
 //
 //}
-
 .about-featured-image {
     position: relative;
     overflow: hidden;
@@ -84,58 +83,49 @@
 }
 
 /////////////////////////////////////////////////
-.about-feature {
-    display: flex;
-    position: relative;
-
-    &-box {
-        flex: 1;
-        margin: 0 10px;
-        border: 1px solid $color-primary;
+.our {
+    &_box {
+        min-height: 240px;
         padding: 1rem 2rem;
-        &:hover {
-            & i {
-                background-color: $color-primary;
-                color: $color-gray-light-1;
+        border: 1px solid $color-primary;
+        & .our-feature-icon {
+            position: absolute;
+            & > i {
+                font-size: 32px;
+                width: 80px;
+                height: 80px;
+                border: 1px solid $color-primary;
+                display: inline-block;
+                text-align: center;
+                line-height: 80px;
+                position: relative;
+                top: -5rem;
+                background: #fff;
+                color: $color-primary;
+                border-radius: 50%;
+                left: 20px;
+                transition: 0.4s;
             }
         }
-    }
-    &-icon {
-        position: absolute;
-        & > i {
-            font-size: 32px;
-            width: 80px;
-            height: 80px;
-            border: 1px solid $color-primary;
-            display: inline-block;
-            text-align: center;
-            line-height: 80px;
-            position: relative;
-            top: -5rem;
-            background: #fff;
-            color: $color-primary;
-            border-radius: 50%;
-            left: 20px;
-            transition: 0.4s;
-        }
-    }
-    &-text {
-        padding-top: 4.5rem;
-        & > h4 {
-            font-weight: 700;
-            font-size: 3rem;
-            text-transform: uppercase;
-            & > {
-                span {
-                    font-family: inherit;
-                    font-size: 3.1rem;
-                    color: $color-primary;
-                    font-weight: 900;
-                    letter-spacing: 1px;
+        & .our-feature-text {
+            padding-top: 4.5rem;
+            & h4 {
+                font-weight: 700;
+                font-size: 3rem;
+                text-transform: uppercase;
+                & > {
+                    span {
+                        font-family: inherit;
+                        font-size: 3.1rem;
+                        color: $color-primary;
+                        font-weight: 900;
+                        letter-spacing: 1px;
+                    }
                 }
             }
         }
-        & > p {
+
+        & p {
             font-family: inherit;
             font-size: 1.6rem;
             color: $color-black;
@@ -293,5 +283,5 @@
 }
 
 .inc-isb {
-    left: 30px!important;
+    left: 30px !important;
 }

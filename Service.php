@@ -23,15 +23,15 @@
                     <p class="main-p">Services aimed at helping our clients address three key aspects of their business.</p>
                     <ul>
                         <li>
-                           <i class="fa fa-check" aria-hidden="true"></i>
+                            <i class="fa fa-check" aria-hidden="true"></i>
                             <p>A non-disruptive renewal and simplification of their existing landscapes.</p>
                         </li>
                         <li>
-                           <i class="fa fa-check" aria-hidden="true"></i>
+                            <i class="fa fa-check" aria-hidden="true"></i>
                             <p>Introduction of new offerings and business models in a dynamic business environment.</p>
                         </li>
                         <li>
-                           <i class="fa fa-check" aria-hidden="true"></i>
+                            <i class="fa fa-check" aria-hidden="true"></i>
                             <p>And creating a culture of innovation in their organizations.
                             </p>
                         </li>
@@ -54,39 +54,89 @@
     </div>
 </section>
 
-
-<section class="default-section white">
+<section class="default-section bg-white">
     <div class="container">
         <div class="row">
-            <div class="tech-services">
-                <h3 class="tech-heading">Services</h3>
-                <div class="tech-section">
-                    <div class="tech-section-item">
-                        <div class="col-md-3 tech-box tech-section-item-1 ">
-                            <p>IT Outsourcing</p>
-                        </div>
-                    </div>
-                    <div class="tech-section-item">
-                        <div class="col-md-3 tech-box tech-section-item-2">
-                            <p>Monitoring &amp; Evaluation</p>
-                        </div>
-                    </div>
-                    <div class="tech-section-item">
-                        <div class="col-md-3 tech-box tech-section-item-3">
-                            <p>Survey Design &amp;<br> Data Management</p>
-                        </div>
-                    </div>
-                    <div class="tech-section-item">
-                        <div class="col-md-3 tech-box tech-section-item-4">
-                            <p>Geographic Information System</p>
-                        </div>
-                    </div>
+            <h3 class="tech-heading">Services</h3>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-l-r-10 z">
+                <div class="our-services">
+                    <div class="our-services__img our-services__img-1" style="height: 350px;">
+                        <div class="light-blue-overlay" style="border-radius: 5px;">
+                            <div class="color-overlay" style="border-radius: 5px;">
 
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="texxt">
+                    <h3>IT Outsourcing</h3>
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    </div>
                 </div>
             </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 p-l-r-10">
+                <div class="our-services">
+                    <div class="our-services__img our-services__img-2" style="height: 350px;">
+                        <div class="light-blue-overlay" style="border-radius: 5px;">
+                            <div class="color-overlay" style="border-radius: 5px;">
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="texxt">
+                    <h3>Monitoring <br> &amp; Evaluation</h3>
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 p-l-r-10">
+                <div class="our-services">
+                    <div class="our-services__img our-services__img-3" style="height: 350px;">
+                        <div class="light-blue-overlay" style="border-radius: 5px;">
+                            <div class="color-overlay" style="border-radius: 5px;">
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="texxt">
+                    <h3>Survey Design &amp;<br> Data Management</h3>
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 p-l-r-10 ">
+                <div class="our-services">
+                    <div class="our-services__img our-services__img-4" style="height: 350px;">
+                        <div class="light-blue-overlay" style="border-radius: 5px;">
+                            <div class="color-overlay" style="border-radius: 5px;">
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="texxt">
+                    <h3>Geographic <br> Information System</h3>
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
+
+
+
+
 
 <!-------------------------------device frame courasol------------------------------>
 <section class="default-section white frame-slider">
@@ -136,8 +186,31 @@
 </section>
 
 <!-------------------------------desired courasol end------------------------------>
+<!------------------------------------------data bar-->
+<section class="bgc-prime">
+    <div class="container ">
+        <div class="service-icon">
+            <div class="service-icon-item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <p>578 clients</p>
+            </div>
+            <div class="service-icon-item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <p>
+                    783 projects</p>
+            </div>
+            <div class="service-icon-item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <p>921 consultations</p>
+            </div>
+            <div class="service-icon-item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <p>328 houses built</p>
+            </div>
 
-
+        </div>
+    </div>
+</section>
 <!--------------------------------Courasol end------------------------------->
 
 <section class="default-section white">
@@ -207,41 +280,20 @@
         </div>
     </div>
 </section>
-
-<!------------------------------------------mac corasol-->
+<!--
+----------------------------------------mac corasol
 
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="fc-mac"></div>
-        </div>
-    </div>
-</div>
-<!------------------------------------------data bar-->
-<div class="bg-primary">
-    <div class="container ">
-        <div class="service-icon">
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>578 clients</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>
-                    783 projects</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>921 consultations</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>328 houses built</p>
-            </div>
+            <div class="fc-mac">
 
+            </div>
         </div>
     </div>
 </div>
+-->
+
 <!----------------------------------info section----->
 
 <section class="default-section white">
@@ -280,70 +332,80 @@
         </div>
     </div>
 </section>
+
 <!---------------------------------blockqoute courasol-->
-<section class="default-section">
-    <div id="carousel-example-generic" class="carousel slide blockqoute-courasol" data-ride="carousel">
+
+<!--<section class="default-section">-->
+<!--    <div id="carousel-example-generic" class="carousel slide blockqoute-courasol" data-ride="carousel">-->
         <!-- Indicators -->
 
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item text-center active">
+<!--        <div class="carousel-inner" role="listbox">-->
+<!--            <div class="item text-center active">-->
                 <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                <blockqoute>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockqoute>
-            </div>
-            <div class="item text-center">
+<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
+<!--                <blockqoute>-->
+<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
+<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
+<!--                </blockqoute>-->
+<!--            </div>-->
+<!--            <div class="item text-center">-->
                 <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                <blockqoute>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockqoute>
-            </div>
-            <div class="item text-center">
+<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
+<!--                <blockqoute>-->
+<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
+<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
+<!--                </blockqoute>-->
+<!--            </div>-->
+<!--            <div class="item text-center">-->
                 <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                <blockqoute>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockqoute>
-            </div>
-        </div>
-
+<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
+<!--                <blockqoute>-->
+<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
+<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
+<!--                </blockqoute>-->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                  </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                  </a>
-    </div>
-</section>
+<!--        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+<!--                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--                        <span class="sr-only">Previous</span>-->
+<!--                  </a>-->
+<!--        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+<!--                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--                        <span class="sr-only">Next</span>-->
+<!--                  </a>-->
+<!--    </div>-->
+<!--</section>-->
+
 <!----------------------->
+<!--
 <section class="s-content">
     <div class="container-fluid s-content_main">
         <div class="row">
             <div class="col-md-6 s-content_slider">
                 <div id="carousel-example-generic" class="carousel slide blockqoute-courasol" data-ride="carousel">
+-->
 
                     <!--             Indicators -->
+<!--
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     </ol>
+-->
                     <!--            <i class="fa fa-quote-right"></i>-->
 
                     <!-- Wrapper for slides -->
+<!--
                     <div class="carousel-inner" role="listbox">
                         <div class="item text-center active">
+-->
                             <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
+<!--
                             <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
                             <blockqoute>
                                 <h3>ANY HEADIND</h3>
@@ -352,7 +414,9 @@
                             </blockqoute>
                         </div>
                         <div class="item text-center">
+-->
                             <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
+<!--
                             <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
                             <blockqoute>
                                 <h3>ANY HEADIND</h3>
@@ -361,7 +425,9 @@
                             </blockqoute>
                         </div>
                         <div class="item text-center">
+-->
                             <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
+<!--
                             <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
                             <blockqoute>
                                 <h3>ANY HEADIND</h3>
@@ -370,6 +436,7 @@
                             </blockqoute>
                         </div>
                     </div>
+-->
 
                     <!--
                      Controls
@@ -382,6 +449,7 @@
                         <span class="sr-only">Next</span>
                   </a>
 -->
+<!--
                 </div>
             </div>
             <div class="col-md-6">
@@ -390,7 +458,7 @@
         </div>
     </div>
 </section>
-
+-->
 
 
 <?php include "includes/footer.php" ?>

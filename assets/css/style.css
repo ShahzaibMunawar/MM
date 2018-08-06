@@ -60,6 +60,9 @@ caption {
 .p-r-15 {
   padding-right: 15px !important; }
 
+.p-l-r-10 {
+  padding: 0 10px !important; }
+
 .p-b-15 {
   padding-bottom: 15px !important; }
 
@@ -133,6 +136,9 @@ caption {
   padding: 9rem 0px; }
 
 .bg-primary {
+  background-color: #f49818 !important; }
+
+.bgc-prime {
   background-color: #f49818 !important; }
 
 .bg-primary-light {
@@ -1381,20 +1387,13 @@ figure.snip1477.hover figcaption {
 .Hslash {
   font-size: 1.9rem; }
 
-.about-feature {
-  display: flex;
-  position: relative; }
-  .about-feature-box {
-    flex: 1;
-    margin: 0 10px;
-    border: 1px solid #f49818;
-    padding: 1rem 2rem; }
-    .about-feature-box:hover i {
-      background-color: #f49818;
-      color: #f1f3f6; }
-  .about-feature-icon {
+.our_box {
+  min-height: 240px;
+  padding: 1rem 2rem;
+  border: 1px solid #f49818; }
+  .our_box .our-feature-icon {
     position: absolute; }
-    .about-feature-icon > i {
+    .our_box .our-feature-icon > i {
       font-size: 32px;
       width: 80px;
       height: 80px;
@@ -1409,22 +1408,22 @@ figure.snip1477.hover figcaption {
       border-radius: 50%;
       left: 20px;
       transition: 0.4s; }
-  .about-feature-text {
+  .our_box .our-feature-text {
     padding-top: 4.5rem; }
-    .about-feature-text > h4 {
+    .our_box .our-feature-text h4 {
       font-weight: 700;
       font-size: 3rem;
       text-transform: uppercase; }
-      .about-feature-text > h4 > span {
+      .our_box .our-feature-text h4 > span {
         font-family: inherit;
         font-size: 3.1rem;
         color: #f49818;
         font-weight: 900;
         letter-spacing: 1px; }
-    .about-feature-text > p {
-      font-family: inherit;
-      font-size: 1.6rem;
-      color: #233141; }
+  .our_box p {
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: #233141; }
 
 .coverage-m1 {
   margin: 9rem 3rem 9rem 80px; }
@@ -1686,7 +1685,8 @@ figure.snip1477.hover figcaption {
     .service-icon-item i {
       padding: 0 20px 0 0;
       font-size: 35px;
-      line-height: 100px; }
+      line-height: 100px;
+      color: #fff; }
     .service-icon-item p {
       line-height: 100px;
       color: #fff;
@@ -1762,88 +1762,62 @@ figure.snip1477.hover figcaption {
         font-weight: 300;
         color: #2998ff; }
 
-.tech-services {
-  position: relative; }
-
 .tech-heading {
-  margin: 0 0 20px 20px; }
-  .tech-heading::before {
-    background-color: #2998ff;
+  margin: 0 0 30px 20px;
+  color: #2998ff; }
+  .tech-heading::after {
+    background-color: violet;
     position: absolute;
     content: ' ';
     top: -3px;
+    z-index: 1000;
     border-radius: 3px;
     left: 0;
     width: 3px;
     height: 30px; }
 
-.tech-box {
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: cover;
-  height: 350px;
-  border-radius: 5px;
-  width: 270px; }
-
-.tech-section {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: space-between; }
-  .tech-section p {
+.our-services {
+  z-index: 1000;
+  transition: all .3s ease-out; }
+  .our-services__img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: all .3s ease-out; }
+    .our-services__img-1 {
+      background-image: url("../images/write-593333_1920.jpg"); }
+    .our-services__img-2 {
+      background-image: url("../images/services.jpeg"); }
+    .our-services__img-3 {
+      background-image: url("../images/services2.jpeg"); }
+    .our-services__img-4 {
+      background-image: url("../images/cover.jpg"); }
+    .our-services__img:hover {
+      transform: scale(1.1);
+      border-radius: 5px; }
+  .our-services h3 {
     position: absolute;
-    font-size: 24px;
+    top: 270px;
     z-index: 999;
-    margin-right: 10PX;
-    margin-bottom: 20px;
+    left: 8%;
+    transition: all .3s ease-out;
+    transition-delay: 0.4s;
     font-weight: 300;
+    letter-spacing: 0px;
     color: #fff;
-    top: 280px; }
-  .tech-section-item-1 {
-    background-image: url("../images/services.jpeg");
-    position: relative; }
-  .tech-section-item-2 {
-    background-image: url("../images/services.jpeg");
-    position: relative; }
-  .tech-section-item-3 {
-    background-image: url("../images/services.jpeg");
-    position: relative; }
-  .tech-section-item-4 {
-    background-image: url("../images/services.jpeg");
-    position: relative; }
-  .tech-section .tech-section-item-1::after,
-  .tech-section .tech-section-item-2::after,
-  .tech-section .tech-section-item-3::after,
-  .tech-section .tech-section-item-4::after {
-    position: absolute;
-    content: '';
-    width: 270px;
-    height: 350px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.4);
-    top: 0;
-    left: 0;
-    /* Black background with opacity */
-    z-index: 2; }
-  .tech-section .tech-section-item-1::before,
-  .tech-section .tech-section-item-2::before,
-  .tech-section .tech-section-item-3::before,
-  .tech-section .tech-section-item-4::before {
-    position: absolute;
-    content: '';
-    width: 270px;
-    height: 350px;
-    top: 0;
-    border-radius: 5px;
-    left: 0;
-    background: linear-gradient(to bottom, rgba(41, 152, 255, 0), #2998ff);
-    z-index: 2; }
+    font-size: 24px;
+    transition: all .3s ease-out; }
+
+.light-blue-overlay {
+  position: relative;
+  content: '';
+  height: 350px;
+  top: 0;
+  border-radius: 5px;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(41, 152, 255, 0), #2998ff);
+  z-index: 2; }
 
 .prod-img {
   position: relative;
@@ -1879,7 +1853,7 @@ section#mis img {
   margin: 0 auto; }
 
 section#mis .ict-image {
-  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
+  background-image: url("../images/projects/analysis-business-businesswoman-955447.jpg"); }
 
 section#gis .contant-text {
   padding-top: 80px;
@@ -1889,7 +1863,7 @@ section#gis img {
   margin: 0 auto; }
 
 section#gis .ict-image {
-  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
+  background-image: url("../images/projects/analytics-business-chart-920116.jpg"); }
 
 section#mae .contant-text {
   padding-top: 90px;
@@ -1899,7 +1873,7 @@ section#mae img {
   margin: 0 auto; }
 
 section#mae .ict-image {
-  background-image: url("../images/projects/accounting-alone-application-938965.jpg"); }
+  background-image: url("../images/projects/charts-computer-data-669615.jpg"); }
 
 .project {
   margin-right: 0px; }
@@ -1951,7 +1925,9 @@ section#mae .ict-image {
     margin: 14px 0px 14px 4px; }
   .about-page-content {
     padding: 3rem 2rem;
-    margin: 1rem 0 0 -10rem; } }
+    margin: 1rem 0 0 -10rem; }
+  .our_box {
+    min-height: 290px; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .banner-text h1 {
@@ -1971,7 +1947,7 @@ section#mae .ict-image {
     flex-direction: column; } }
 
 @media (min-width: 600px) and (max-width: 992px) {
-  .left-push {
+  .b-left-push {
     left: 25%; } }
 
 @media (max-width: 992px) {
@@ -1984,7 +1960,9 @@ section#mae .ict-image {
   .team_area__cover_heading p.specific_heading {
     left: -60px; }
   .inc-isb {
-    left: -23px !important; } }
+    left: -23px !important; }
+  .margin-t {
+    margin-top: 65px; } }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-brand {
@@ -2010,7 +1988,15 @@ section#mae .ict-image {
     font-size: 15px; }
   #id-footer .textwidget {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .b-left-push {
+    left: 0%; }
+  .margin-t-2 {
+    margin-top: 65px; }
+  .team_heading > h3 {
+    font-size: 30px; }
+  .team_area h4 {
+    font-size: 26px; } }
 
 @media (max-width: 480px) {
   #id-about .imgs {
