@@ -237,7 +237,7 @@ planning. The atlases were produced using latest GIS technology.</p>
             </div>
             <div class="col-md-8 success">
                 <h2 class="success__heading">LET TOMMORROW <br> BEGIN <span>TODAY</span>.</h2>
-                <p class="success__paragraph">Lorem ipsum dolor aliquid hic tempore consequatur repudiandae distinctio accusantium repellendus. consectetur adipisicing elit. Aliquam laborum, nisi, commodi cum eius corrupti, unde soluta amet nam dolores incidunt quia veniam sapiente, numquam culpa fugiat rerum! Cum, doloremque.</p>
+                <p class="success__paragraph">Our Vision is that every aspect of the business process will be able to leverage efficiencies by fueling the business with IT evolution. So, we have made sure that our technical excellence, innovative style and superior client service will enable us to keep ahead of our competitors in assisting our clients in realizing these efficiencies.</p>
                 <div class="row">
                     <!--                   ---------------success-box start------------------->
                     <div class="col-md-6 ">
@@ -256,11 +256,12 @@ planning. The atlases were produced using latest GIS technology.</p>
                     <div class="col-md-6 ">
                         <div class="success__box">
                             <div class="col-md-2 success__box-icon">
-                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+
                             </div>
                             <div class="col-md-10 success__box-text">
-                                <h3 class="success__box-text-heading">Professtional</h3>
-                                <p class="success__box-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat similique adipisci quod, reptinctio ad doloribus necessitatibus assumenda.</p>
+                                <h3 class="success__box-text-heading">Branding</h3>
+                                <p class="success__box-text-paragraph">We ensure that the brand and style guidelines established are rigorously followed and that every step in our creative software design process</p>
                             </div>
                         </div>
                     </div>
@@ -271,11 +272,11 @@ planning. The atlases were produced using latest GIS technology.</p>
                     <div class="col-md-6 ">
                         <div class="success__box">
                             <div class="col-md-2 success__box-icon">
-                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                <i class="fa fa-weixin" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-10 success__box-text">
-                                <h3 class="success__box-text-heading">Vibrant</h3>
-                                <p class="success__box-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat similique adipisci quod, reptinctio ad doloribus necessitatibus assumenda.</p>
+                                <h3 class="success__box-text-heading">Communication</h3>
+                                <p class="success__box-text-paragraph">No process is complete without feedback and every stage in the execution cycle involves our clients through discussions, demos, presentations</p>
                             </div>
                         </div>
                     </div>
@@ -284,11 +285,11 @@ planning. The atlases were produced using latest GIS technology.</p>
                     <div class="col-md-6 ">
                         <div class="success__box">
                             <div class="col-md-2 success__box-icon">
-                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                               <i class="fa fa-line-chart" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-10 success__box-text">
-                                <h3 class="success__box-text-heading">Personality</h3>
-                                <p class="success__box-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat similique adipisci quod, reptinctio ad doloribus necessitatibus assumenda.</p>
+                                <h3 class="success__box-text-heading">Production</h3>
+                                <p class="success__box-text-paragraph">The production phase is the actual build-out phase where the concepts and designs are translated into real and tangible designs.</p>
                             </div>
                         </div>
                     </div>
@@ -318,33 +319,33 @@ planning. The atlases were produced using latest GIS technology.</p>
 <section class="default-section white">
     <div class="container ">
         <div class="row">
-            <div class="col-md-7 col-sm-12">
-                <img src="assets/images/services/Replaceable_tab_pic.png" class="img-responsive" alt="">
+            <div class="col-md-6 col-sm-12 " style="padding-top: 55px;">
+                <img src="assets/images/services/cobertura2.png" class="img-responsive" alt="">
             </div>
-            <div class="col-md-5 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="detail">
                     <div class="detail__text">
                         <p class="detail__text-small">
-                            Smart Company cards
+                            Smart Strategy
                         </p>
                         <h3 class="detail__text-large">
                             Enpower Your team while staying in control
                         </h3>
                         <span></span>
                         <p class="detail__text-paragraph">
-                           During past one decade, MicroMerger has successfully completed a number of assignments for
-its valued clients including: United Nations agencies, donor-funded projects, international and
-local NGOs and other development organization.
+                        MicroMerger can help your organization to realize the full value of your intellectual assets with our dynamic team approach. Our goal is to make the lives of your employees easier by providing widely shared and more easily updated and improved systems. Our team applies a systematic approach to capture, structure, management, and distribution of your enterprise.
+                        <br>
+We do not believe in just selling the products, we give a handsome time to our clients to clarify their mind while selecting the package.
                         </p>
                         <ul class="detail__list">
                             <li class="detail__list-item">
-                                <i class="fa fa-check" aria-hidden="true"></i> Generate Pilo card with few clicks
+                                <i class="fa fa-check" aria-hidden="true"></i> Shared Responsibility
                             </li>
                             <li class="detail__list-item">
-                                <i class="fa fa-check" aria-hidden="true"></i> Generate Pilo card with few clicks
+                                <i class="fa fa-check" aria-hidden="true"></i> Trust in each other
                             </li>
                             <li class="detail__list-item">
-                                <i class="fa fa-check" aria-hidden="true"></i> Generate Pilo card with few clicks
+                                <i class="fa fa-check" aria-hidden="true"></i> Include Them in Important Discussions
                             </li>
                         </ul>
                     </div>

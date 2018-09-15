@@ -1725,8 +1725,11 @@ figure.snip1477.hover figcaption {
       background: #2998ff; }
   .s-paralex__description p.main-p {
     margin: 60px 0 10px 0;
-    color: #233141;
+    color: black;
+    font-weight: 700;
     font-size: 15px; }
+  .s-paralex__description p {
+    color: black; }
 
 .s-paralex ul li {
   display: -webkit-box;
@@ -1800,6 +1803,12 @@ figure.snip1477.hover figcaption {
       font-weight: 600;
       font-size: 20px; }
 
+p.success__paragraph {
+  color: black; }
+
+.success__paragraph {
+  color: black; }
+
 .success__heading {
   font-size: 50px;
   font-weight: 300;
@@ -1821,6 +1830,9 @@ figure.snip1477.hover figcaption {
 .success > p {
   line-height: 30px;
   letter-spacing: 1px; }
+
+.success__box p {
+  color: black; }
 
 .success__box i {
   margin-top: 20px;
@@ -1860,7 +1872,8 @@ figure.snip1477.hover figcaption {
     border-bottom: 3px solid #2998ff;
     margin: 32px 0 30px 0; }
   .detail__text-paragraph {
-    text-align: justify; }
+    text-align: justify;
+    color: #233141; }
   .detail__list {
     margin-top: 15px;
     color: #888; }
@@ -1870,6 +1883,9 @@ figure.snip1477.hover figcaption {
         margin-right: 10px;
         font-weight: 300;
         color: #2998ff; }
+
+p.detail__text-paragraph {
+  color: #233141; }
 
 .tech-heading {
   margin: 0 0 30px 20px;
