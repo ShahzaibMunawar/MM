@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navbar.php" ?>
 
-<div class="about_head color-overlay">
+<div class="about_head color-overlay aboutus">
     <div class="container">
 
         <ul class="About_text">
@@ -41,6 +41,7 @@
     <!--Jobs    /////-->
 
 </div>
+<!--
 
 <div class="coverage">
     <div class="coverage-txt-img">
@@ -63,6 +64,34 @@
         </div>
     </div>
 </div>
+-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="c-col-md-5 coverage p-0 col-xs-12">
+            <div class="coverage-txt-img">
+                <div class="blue-color-overlay1">
+                    <div class="coverage_text coverage-m1">
+                        <h4>Geographical Coverage</h4>
+                        <p>MicroMerger (Pvt.) Ltd is operating in Pakistan from Islamabad head office &amp; four field offices. MicroMerger (Pvt.) Ltd have resources to run assignments in any part of Pakistan including major cities and remote rural areas in the five provinces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 p-0 coverage col-xs-12" >
+            <div class="coverage_img">
+                <div class="feature-img">
+
+                </div>
+            </div>
+        </div>
+        <div class="c-col-md-3 p-0 coverage_sub-text col-xs-12">
+                <div class="coverage-m2">
+                    <h4>Financial Capacity</h4>
+                    <p>As Private Limited firm with firms grounds across Pakistan; we claim and provide strong financial management system and process in place.</p>
+                </div>
+        </div>
+    </div>
+</div>
 <div class="bg-white p-large">
     <div class="container">
         <div class="row  our">
@@ -78,21 +107,21 @@
             </div>
             <div class="col-md-4 col-sm-6 col-sm-12 our p-l-r-10 margin-t-2">
                 <div class="our_box">
-                <div class="our-feature-icon"><i class="fa fa-diamond " aria-hidden="true"></i></div>
-                <div class="our-feature-text">
-                    <h4>Our <span class="heading">EXPERIENCE</span></h4>
-                    <p>During past one decade, MicroMerger has effectively finished various assignments for its valued clients including: UN agencies, international and local NGOs and other development organization.</p>
-                </div>
+                    <div class="our-feature-icon"><i class="fa fa-diamond " aria-hidden="true"></i></div>
+                    <div class="our-feature-text">
+                        <h4>Our <span class="heading">EXPERIENCE</span></h4>
+                        <p>During past one decade, MicroMerger has effectively finished various assignments for its valued clients including: UN agencies, international and local NGOs and other development organization.</p>
+                    </div>
 
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 col-sm-12 our p-l-r-10 margin-t b-left-push">
                 <div class="our_box">
-                <div class="our-feature-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
-                <div class="our-feature-text">
-                    <h4>Our <span class="heading">commitment</span></h4>
-                    <p>Our commitment to building relationships with clients, determination to deliver, and pride in results are hallmarks of our business.</p>
-                </div>
+                    <div class="our-feature-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                    <div class="our-feature-text">
+                        <h4>Our <span class="heading">commitment</span></h4>
+                        <p>Our commitment to building relationships with clients, determination to deliver, and pride in results are hallmarks of our business.</p>
+                    </div>
 
                 </div>
             </div>

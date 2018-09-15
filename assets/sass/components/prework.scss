@@ -78,6 +78,21 @@ caption { padding-top: 8px; padding-bottom: 8px; color: #333; text-align: left; 
 .border-l{border-left: 1px solid $color-grey-dark-2;}
 .border-r{border-right: 1px solid $color-grey-dark-2;}
 
+.c-col-md-5{
+   position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.c-col-md-5{
+    width: 45.996667%;
+}
+.c-col-md-3{
+    width: 29.00333%;
+    float: right;
+}
+
 .color-white {color: #fff!important;}
 
 
@@ -90,16 +105,8 @@ a:hover, a:focus, a:visited {
     text-decoration: none;
     outline: none;
 }
-ul, li {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-}
+ul, li {list-style: none;padding: 0px;margin: 0px;}
+img {display: inline-block;max-width: 100%;height: auto;}
 
 /***************theme btns********************/
 .btn{ padding-left:25px; padding-right:25px;}

@@ -138,14 +138,8 @@
 <!-- custom -->
 <script src="<?php echo URL; ?>assets/plugins/counter-up/jquery.counterup.min.js"></script>
 <script src="assets/plugins/waypoints/waypoints.min.js"></script>
-<!--//  remove -->
-<script src="assets/plugins/FrameCarousel-master/dist/jquery.frame-carousel.js"></script>
-<script src="assets/plugins/FrameCarousel-master/libs/jquery.touchSwipe.min.js"></script>
-<!--//  remove -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5eWF6gVdiLAwZckcP1rh1MeZ4He1uuVo&callback=initMap">
-
-
-</script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap"
+  type="text/javascript"></script>
 <script src="assets/js/TweenMax.js"></script>
 <script src="<?php echo URL; ?>assets/js/app.js"></script>
 
@@ -206,13 +200,6 @@
             icon: 'assets/images/contact/signal.gif'
         });
     }
-
-</script>
-<script>
-    //<!-------------------------------courasol in frame(mac)-->
-    $('.fc-mac').frameCarousel({
-        images: ['assets/images/bg-1.jpg', 'assets/images/bg-2.jpg', 'assets/images/bgt.jpg', ]
-    });
 
 </script>
 

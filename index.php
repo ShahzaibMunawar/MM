@@ -62,7 +62,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="Service.php">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="portfolio.php">Portfolio</a></li>
                         <li><a href="Contact.php">Contact Us</a></li>
                     </ul>
                 </div>

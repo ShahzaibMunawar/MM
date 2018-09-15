@@ -1,8 +1,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navbar.php" ?>
-    <div class="about_head color-overlay">
+    <div class="about_head contactus color-overlay">
         <div class="container">
-
             <ul class="About_text">
                 <li class="atext text_main">Contact Us</li>
                 <li class="atext text_secondary">
@@ -136,12 +135,8 @@
                     <h2 class="">
                         Our Location
                     </h2>
-                    <div id="map">
-                    </div>
+
                 </div>
             </div>
         </div>
-
-
-
         <?php include "includes/footer.php" ?>

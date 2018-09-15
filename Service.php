@@ -14,6 +14,8 @@
     </div>
 -->
 <!-------------------------------paralex part---->
+
+
 <section class="default-section paralex">
     <div class="container">
         <div class="row">
@@ -54,7 +56,7 @@
     </div>
 </section>
 
-<section class="default-section bg-white">
+<section class="default-section bg-white p-b-0">
     <div class="container">
         <div class="row">
             <h3 class="tech-heading">Services</h3>
@@ -71,11 +73,14 @@
                     </div>
                     <div class="texxt">
                     <h3>IT Outsourcing</h3>
-<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    <p>
+                    MicroMerger (Pvt.) Ltd IT outsourcing teams can assist, adding value within one or more areas
+of your environment.
+                   <br>
+                    IT teams are under pressure to deliver new services to meet ever-growing demands from the business .... and find ways to reduce the cost of providing those IT services. </p>
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-6 col-xs-12 p-l-r-10">
                 <div class="our-services">
                     <div class="our-services__img our-services__img-2" style="height: 350px;">
@@ -89,7 +94,13 @@
                     </div>
                     <div class="texxt">
                     <h3>Monitoring <br> &amp; Evaluation</h3>
-<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    <p>MicroMerger has developed software/web based
+tools to support management of large and complex
+projects implemented by multiple partners in
+geographically dispersed areas. The system helps in
+tracking progress on work plan activities and reporting
+back to management and the funding agency in a
+timely manner</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +118,8 @@
                     </div>
                     <div class="texxt">
                     <h3>Survey Design &amp;<br> Data Management</h3>
-<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    <p>Our experience spans over all phases of household and facility surveys including: design;
+planning; recruitment and training of survey staff; data collection, data management and analysis. We specialize in the following survey methodologies:</p>
                     </div>
                 </div>
             </div>
@@ -125,7 +137,9 @@
                     </div>
                     <div class="texxt">
                     <h3>Geographic <br> Information System</h3>
-<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis neque necessitatibus dolore! Maiores hic, mollitia ipsa dolor</p>-->
+                    <p>MicroMerger provided technical assistance to Planning and Development Department,
+Government of Balochistan in developing thirty (30) district atlases to support developmental
+planning. The atlases were produced using latest GIS technology.</p>
                     </div>
                 </div>
             </div>
@@ -139,7 +153,7 @@
 
 
 <!-------------------------------device frame courasol------------------------------>
-<section class="default-section white frame-slider">
+<section class="default-section white frame-slider p-b-0">
     <h2>SPEED, INNOVATION &amp; QUALITY</h2>
     <div class="pages_banner">
         <img src="assets/images/services/Hove-cover.jpg" alt="" class="img-responsive center-block">
@@ -187,6 +201,7 @@
 
 <!-------------------------------desired courasol end------------------------------>
 <!------------------------------------------data bar-->
+<!--
 <section class="bgc-prime">
     <div class="container ">
         <div class="service-icon">
@@ -211,9 +226,10 @@
         </div>
     </div>
 </section>
+-->
 <!--------------------------------Courasol end------------------------------->
 
-<section class="default-section white">
+<section class="default-section white p-b-0">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -230,8 +246,8 @@
                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-10 success__box-text">
-                                <h3 class="success__box-text-heading">Professtional</h3>
-                                <p class="success__box-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat similique adipisci quod, reptinctio ad doloribus necessitatibus assumenda.</p>
+                                <h3 class="success__box-text-heading">Quality Commitment</h3>
+                                <p class="success__box-text-paragraph">We develop our Software in a rapid development environment, without compromising on the quality of our applications and the processes that assure quality.</p>
                             </div>
                         </div>
                     </div>
@@ -248,8 +264,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
                     <!--                   ---------------success-box end------------------->
                     <!--                   ---------------success-box start------------------->
+                    <div class="row">
                     <div class="col-md-6 ">
                         <div class="success__box">
                             <div class="col-md-2 success__box-icon">
@@ -276,9 +294,10 @@
                     </div>
                     <!--                   ---------------success-box end------------------->
                 </div>
+                </div>
             </div>
         </div>
-    </div>
+
 </section>
 <!--
 ----------------------------------------mac corasol
@@ -313,7 +332,9 @@
                         </h3>
                         <span></span>
                         <p class="detail__text-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt in eveniet error cum incidunt! Dignissimos mollitia libero incidunt, assumenda dolores rem debitis.
+                           During past one decade, MicroMerger has successfully completed a number of assignments for
+its valued clients including: United Nations agencies, donor-funded projects, international and
+local NGOs and other development organization.
                         </p>
                         <ul class="detail__list">
                             <li class="detail__list-item">

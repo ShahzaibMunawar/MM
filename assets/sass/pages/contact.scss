@@ -1,8 +1,20 @@
 .about_head {
     height: 20rem;
     margin-top: 71px;
-    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/team.jpeg) fixed no-repeat center top;
 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.contactus {
+    background-image: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/projects/ContactUs.jpeg);
+}
+
+.aboutus {
+    background-image: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/AboutUs.jpeg);
 }
 
 //////////////////////////////////
@@ -35,7 +47,7 @@ figure.snip1477 img {
     backface-visibility: hidden;
     vertical-align: top;
     opacity: 0.9;
-    transition:all 1s ease;
+    transition: all 1s ease;
 
 }
 
@@ -144,8 +156,8 @@ figure.snip1477.hover img {
 }
 
 
-figure.snip1477:hover img{
-            transform: scale(1.1);
+figure.snip1477:hover img {
+    transform: scale(1.1);
 
 }
 
@@ -179,16 +191,14 @@ figure.snip1477.hover figcaption {
 
 
 .contact-place {
-    & table td{
+    & table td {
         vertical-align: top;
     }
 
     padding: 9rem 0;
     & .contact-box {
 
-        &__location {
-
-        }
+        &__location {}
     }
 }
 
@@ -244,3 +254,97 @@ figure.snip1477.hover figcaption {
         }
     }
 }
+
+////////////////////////////new page contactus
+.contact {
+    &__location {
+        background: #ffffff none repeat scroll 0 0;
+        bottom: 30px;
+        left: 36px;
+        min-width: 420px;
+            padding: 15px 22px 0;
+        position: absolute;
+        top: 30px;
+        z-index: 9;
+        & .location__box {
+
+            border-bottom: 1px solid #dedede;
+            margin: 0 0 15px;
+            padding: 0 0 15px 55px;
+            position: relative;
+            & .icon {
+                color: #00a0b8;
+                font-size: 30px;
+                font-weight: 300;
+                left: 0;
+                line-height: 30px;
+                position: absolute;
+                text-align: center;
+                top: 5px;
+                width: 58px;
+            }
+            & ul {
+                & li {
+                    display: flex;
+                    line-height: 13px;
+
+                    & p {
+                        color: black;
+
+                    }
+                    & span {
+                        font-weight: 700;
+                    }
+                }
+            }
+
+        }
+
+    }
+    &__map {
+        position: relative;
+        z-index: 1;
+        & #map {
+            height: 590px;
+            width: 100%;
+        }
+    }
+}
+
+.mapinfo-social {
+    list-style: outside none none;
+    padding: 0;
+    & li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+.mapinfo-social li a {
+    background: #242424 none repeat scroll 0 0;
+    border-radius: 100px;
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.mapinfo-social li.facebook a {
+    background: #4065ae none repeat scroll 0 0;
+}
+
+.mapinfo-social li.twitter a {
+    background: #009eee none repeat scroll 0 0;
+}
+.mapinfo-social li.google a {
+    background: #e64d3f none repeat scroll 0 0;
+}
+.mapinfo-social li.linkedin a {
+    background: #0075b2 none repeat scroll 0 0;
+}
+.mapinfo-social li.instagram a {
+    background: #c80f4b none repeat scroll 0 0;
+}
+.contact-box>img {margin: 105px 0px 0px 120px;height: 350px;}

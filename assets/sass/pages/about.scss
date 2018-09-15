@@ -85,6 +85,10 @@
 /////////////////////////////////////////////////
 .our {
     &_box {
+        &:hover .our-feature-icon > i {
+            background-color: $color-primary;
+            color: #fff;
+        }
         min-height: 240px;
         padding: 1rem 2rem;
         border: 1px solid $color-primary;
@@ -143,7 +147,6 @@
 }
 
 .coverage {
-    display: flex;
     & .coverage-txt-img {
         background: url(../images/coverage1bg.jpg);
         background-repeat: no-repeat;
@@ -158,7 +161,6 @@
 
     &_text,
     &_sub-text {
-        flex: 0 0 46%;
         text-align: left;
         & h4 {
             font-family: 'Roboto', sans-serif;
@@ -173,26 +175,30 @@
             font-size: 1.6rem;
         }
     }
-    &_img {
-        flex-grow: 1;
-        flex: 0 0 25%;
-        overflow: hidden;
-        & > .feature-img {
-            background-image: url(../images/cover.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: auto 100%;
-            transition: all 0.6s ease-in;
-            height: 100%;
-            &:hover {
-                transform: scale(1.10);
-            }
-        }
-    }
+
     &_sub-text {
         flex: 0 0 29%;
         background: $color-black-1;
     }
+}
+.coverage{
+    overflow: hidden;
+}
+.coverage_img {
+    overflow: hidden;
+}
+
+.coverage_img > .feature-img {
+    background-image: url(../images/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 0.6s ease-in;
+    height: 323px;
+}
+
+.coverage_img > .feature-img:hover {
+    transform: scale(1.1);
 }
 
 ////////////////////////////////////////////////////////
@@ -214,7 +220,7 @@
 }
 
 .team {
-    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/team.jpeg) no-repeat;
+    background: linear-gradient(120deg, rgba(51, 51, 51, 0.8) 5%, rgba(0, 0, 0, 0.4) 95%), url(../images/team/teaam.jpeg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 33rem;
