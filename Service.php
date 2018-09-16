@@ -56,7 +56,7 @@
     </div>
 </section>
 
-<section class="default-section bg-white p-b-0">
+<section class="default-section-30 bg-white p-b-0">
     <div class="container">
         <div class="row">
             <h3 class="tech-heading">Services</h3>
@@ -119,7 +119,7 @@ timely manner</p>
                     <div class="texxt">
                     <h3>Survey Design &amp;<br> Data Management</h3>
                     <p>Our experience spans over all phases of household and facility surveys including: design;
-planning; recruitment and training of survey staff; data collection, data management and analysis. We specialize in the following survey methodologies:</p>
+planning; recruitment and training of survey staff; data collection, data management and analysis.Our core technical team specializes in different range of software tools.</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ planning. The atlases were produced using latest GIS technology.</p>
 
 
 <!-------------------------------device frame courasol------------------------------>
-<section class="default-section white frame-slider p-b-0">
+<section class="default-section-30 white frame-slider p-b-0">
     <h2>SPEED, INNOVATION &amp; QUALITY</h2>
     <div class="pages_banner">
         <img src="assets/images/services/Hove-cover.jpg" alt="" class="img-responsive center-block">
@@ -199,37 +199,7 @@ planning. The atlases were produced using latest GIS technology.</p>
     </div>
 </section>
 
-<!-------------------------------desired courasol end------------------------------>
-<!------------------------------------------data bar-->
-<!--
-<section class="bgc-prime">
-    <div class="container ">
-        <div class="service-icon">
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>578 clients</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>
-                    783 projects</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>921 consultations</p>
-            </div>
-            <div class="service-icon-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <p>328 houses built</p>
-            </div>
-
-        </div>
-    </div>
-</section>
--->
-<!--------------------------------Courasol end------------------------------->
-
-<section class="default-section white p-b-0">
+<section class="default-section-30 white p-b-0">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -245,7 +215,7 @@ planning. The atlases were produced using latest GIS technology.</p>
                             <div class="col-md-2 success__box-icon">
                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-10 success__box-text">
+                            <div class="col-md-10 success__box-text  p-r-0">
                                 <h3 class="success__box-text-heading">Quality Commitment</h3>
                                 <p class="success__box-text-paragraph">We develop our Software in a rapid development environment, without compromising on the quality of our applications and the processes that assure quality.</p>
                             </div>
@@ -259,7 +229,7 @@ planning. The atlases were produced using latest GIS technology.</p>
                                 <i class="fa fa-rocket" aria-hidden="true"></i>
 
                             </div>
-                            <div class="col-md-10 success__box-text">
+                            <div class="col-md-10 success__box-text p-r-0">
                                 <h3 class="success__box-text-heading">Branding</h3>
                                 <p class="success__box-text-paragraph">We ensure that the brand and style guidelines established are rigorously followed and that every step in our creative software design process</p>
                             </div>
@@ -274,7 +244,7 @@ planning. The atlases were produced using latest GIS technology.</p>
                             <div class="col-md-2 success__box-icon">
                                 <i class="fa fa-weixin" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-10 success__box-text">
+                            <div class="col-md-10 success__box-text p-r-0">
                                 <h3 class="success__box-text-heading">Communication</h3>
                                 <p class="success__box-text-paragraph">No process is complete without feedback and every stage in the execution cycle involves our clients through discussions, demos, presentations</p>
                             </div>
@@ -287,7 +257,7 @@ planning. The atlases were produced using latest GIS technology.</p>
                             <div class="col-md-2 success__box-icon">
                                <i class="fa fa-line-chart" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-10 success__box-text">
+                            <div class="col-md-10 success__box-text p-r-0">
                                 <h3 class="success__box-text-heading">Production</h3>
                                 <p class="success__box-text-paragraph">The production phase is the actual build-out phase where the concepts and designs are translated into real and tangible designs.</p>
                             </div>
@@ -300,23 +270,9 @@ planning. The atlases were produced using latest GIS technology.</p>
         </div>
 
 </section>
-<!--
-----------------------------------------mac corasol
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="fc-mac">
 
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-<!----------------------------------info section----->
-
-<section class="default-section white">
+<section class="default-section-30 white">
     <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 " style="padding-top: 55px;">
@@ -355,132 +311,6 @@ We do not believe in just selling the products, we give a handsome time to our c
     </div>
 </section>
 
-<!---------------------------------blockqoute courasol-->
-
-<!--<section class="default-section">-->
-<!--    <div id="carousel-example-generic" class="carousel slide blockqoute-courasol" data-ride="carousel">-->
-        <!-- Indicators -->
-
-
-        <!-- Wrapper for slides -->
-<!--        <div class="carousel-inner" role="listbox">-->
-<!--            <div class="item text-center active">-->
-                <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
-<!--                <blockqoute>-->
-<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
-<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
-<!--                </blockqoute>-->
-<!--            </div>-->
-<!--            <div class="item text-center">-->
-                <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
-<!--                <blockqoute>-->
-<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
-<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
-<!--                </blockqoute>-->
-<!--            </div>-->
-<!--            <div class="item text-center">-->
-                <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--                <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>-->
-<!--                <blockqoute>-->
-<!--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>-->
-<!--                    <footer>Some famous in <cite title="Source Title">Source Title</cite></footer>-->
-<!--                </blockqoute>-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-        <!-- Controls -->
-<!--        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
-<!--                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
-<!--                        <span class="sr-only">Previous</span>-->
-<!--                  </a>-->
-<!--        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
-<!--                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-<!--                        <span class="sr-only">Next</span>-->
-<!--                  </a>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!----------------------->
-<!--
-<section class="s-content">
-    <div class="container-fluid s-content_main">
-        <div class="row">
-            <div class="col-md-6 s-content_slider">
-                <div id="carousel-example-generic" class="carousel slide blockqoute-courasol" data-ride="carousel">
--->
-
-                    <!--             Indicators -->
-<!--
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
--->
-                    <!--            <i class="fa fa-quote-right"></i>-->
-
-                    <!-- Wrapper for slides -->
-<!--
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item text-center active">
--->
-                            <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--
-                            <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                            <blockqoute>
-                                <h3>ANY HEADIND</h3>
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                                <div class="btn  btn-white-line">i am btn</div>
-                            </blockqoute>
-                        </div>
-                        <div class="item text-center">
--->
-                            <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--
-                            <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                            <blockqoute>
-                                <h3>ANY HEADIND</h3>
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                                <div class="btn  btn-white-line">i am btn</div>
-                            </blockqoute>
-                        </div>
-                        <div class="item text-center">
--->
-                            <!--                <img src="assets/images/services/Replaceable_tab_pic.png" alt="***">-->
-<!--
-                            <p><img src="assets/images/gallery/IMG_2391.jpg" class="img-responsive img-circle" alt="" style="width:100px;height:100px;"></p>
-                            <blockqoute>
-                                <h3>ANY HEADIND</h3>
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quo!</p>
-                                <div class="btn  btn-white-line">i am btn</div>
-                            </blockqoute>
-                        </div>
-                    </div>
--->
-
-                    <!--
-                     Controls
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                  </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                  </a>
--->
-<!--
-                </div>
-            </div>
-            <div class="col-md-6">
-
-            </div>
-        </div>
-    </div>
-</section>
--->
 
 
 <?php include "includes/footer.php" ?>

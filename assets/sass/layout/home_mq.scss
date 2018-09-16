@@ -86,6 +86,12 @@
     .our-services {
         padding-bottom: 20px;
     }
+        .c-col-md-5 {
+        width: 100%;
+    }
+    .c-col-md-3 {
+        width: 100%;
+    }
 
 }
 
@@ -102,6 +108,7 @@
         margin-top: 15px;
         color: #fff;
     }
+
     //--------header
     .section-heading h2 {
         font-size: 35px;
@@ -217,12 +224,7 @@
     .team_area h4 {
         font-size: 25px;
     }
-    .c-col-md-5 {
-        width: 100%;
-    }
-    .c-col-md-3 {
-        width: 100%;
-    }
+
     .coverage-m1 {
         margin: 30px 15px 30px 15px;
     }

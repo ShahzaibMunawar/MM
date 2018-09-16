@@ -1,3 +1,6 @@
+.default-section-30{
+    padding-top: 30px;
+}
 //---------------------------------pages_banner
 .frame-slider > h2 {
     text-align: center;
@@ -193,18 +196,19 @@
 }
 
 //----------------------------------------feature section end--------------------------
-p.success__paragraph{
+p.success__paragraph {
     color: black;
 }
+
 .success {
-    &__paragraph  {
+    &__paragraph {
         color: black;
     }
     &__heading {
         font-size: 50px;
         font-weight: 300;
         letter-spacing: 5px;
-        margin: 20px 0px 100px;
+        margin: 20px 0px 60px;
         position: relative;
 
         & span {
@@ -217,13 +221,13 @@ p.success__paragraph{
             width: 50px;
             background: #2998ff;
             position: absolute;
-            bottom: -45px;
+            bottom: -32px;
             left: 1px;
         }
     }
 
     & > p {
-        line-height: 30px;
+        line-height: 25px;
         letter-spacing: 1px;
     }
     &__box {
@@ -292,7 +296,7 @@ p.success__paragraph{
         }
         &-paragraph {
             text-align: justify;
-              color: $color-black;
+            color: $color-black;
         }
     }
     &__list {
@@ -309,8 +313,9 @@ p.success__paragraph{
         }
     }
 }
-p.detail__text-paragraph{
-     color: $color-black;
+
+p.detail__text-paragraph {
+    color: $color-black;
 }
 
 //-----------------------------all services
